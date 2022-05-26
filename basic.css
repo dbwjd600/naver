@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* >> 최상위에 있어야하고, 큰따움표써야함.
+한글로 표기, 집에가서 안바뀜. */
+
+    
+/* basic.css */
+
+article {}
+
+article>p {
+    background-color: #0ff;
+    padding: 60px;
+}
+
+article>div {
+    background-color: rgba(177, 249, 185, 0.358);
+    padding: 60px;
+    margin: 30px 0;
+}
