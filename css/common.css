@@ -67,14 +67,14 @@ header > div > a > img{
 }
 /* nav */
 .nav{
-    width: 70%;
-    padding: 3px 20px 5px;
+    width: 80%;
+    margin: 2px 0;
     background-color: #AEC897;
     color: #000;
     position: absolute;
     left:50%; bottom: 0%;
     z-index: 3;
-    transform: translate(-50%,130%);
+    transform: translate(-50%,110%);
     display: none;
     white-space: nowrap;
 }
@@ -83,7 +83,8 @@ header li:hover .nav{
 }
 .nav > a{
     display: inline-block;
-    padding: 0 20px;
+    padding: 5px 0;
+    margin-right: 10px;
     font-size: 12px;
     color: #fff;
 }
