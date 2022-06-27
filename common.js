@@ -15,7 +15,7 @@ function init(){
     // main2
     let idx = 0, data;
     $.ajax({
-        url:'data.json',
+        url:'./data.json',
         success:function(d){
             data = d;
             $('.main2-left > p').html(`<img src="${data.gallery[idx][0]}">`);
