@@ -8,44 +8,18 @@
     <title>Document</title>
     <link href="./css/index.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="./img/favicon-16x16.png" sizes="16x16" />
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script defer src="./common.js"></script>
+
+    <script src="./slick-sample/slick.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./slick-sample/slide.js"> </script>
+    <link href="./slick-sample/slick.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
-        <div>
-            <h1><a href="./index.html"><img src="./img/logo.png" alt=""></a></h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="./sub1.html">pasion DAON</a>
-                        <div class="nav nav1">
-                            <a href="./sub1.html"><img src="./img/snav1.png" alt="">다온 펜션 is</a>
-                            <a href="./sub2.html"><img src="./img/snav2.png" alt="">펜션사진</a>
-                            <a href="./sub3.html"><img src="./img/snav3.png" alt="">찾아오시는 길</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="./sub4.html">ROOM INFO</a>
-                        <div class="nav nav2">
-                            <a href="./sub4.html"><img src="./img/snav4.png" alt="">객실안내</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="./sub6-1.html">RESERVATION</a>
-                        <div class="nav nav3">
-                            <a href="./sub5.html"><img src="./img/snav5.png" alt="">요금안내</a>
-                            <a href="./sub6-2.html"><img src="./img/snav6.png" alt="">실시간 예약</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a class="nav4" href="./sub7.html"><img src="./img/snav7.png" alt="">이용후기</a>
-                    </li>
-                </ul>
-            </nav>
-            <a href="./sub6-2.html"><img src="./img/reservation.jpg" alt=""></a>
-        </div>
-    </header>
+    <header></header>
 
     <main>
         <div class="main">
@@ -61,18 +35,25 @@
 
                 <!-- popup -->
                 <div class="pop">
-                    <a href=""><p><img src="./img/popup.jpg" alt=""></p></a>
+                    <p><img src="./img/popup.jpg" alt=""></p>
                     <a href="">오늘 하루 그만보기</a>
                 </div>
 
-                <div class="arrow1">
+                <!-- <div class="arrow1">
                     <a href="#"></a>
                     <a href="#"></a>
-                </div>
+                </div> -->
 
                 <div class="slide-wrap">
                     <div class="slide">
-                        <figure class="photo"><img src="./img/m1-1.jpg" alt="#"></figure>
+                        <div class="slide1">
+                            <figure class="photo"><img src="./img/m1-1.jpg"></figure>
+                            <figure class="photo" ><img src="./img/m1-2.jpg"></figure>
+                            <figure class="photo"><img src="./img/m1-3.jpg"></figure>
+                            <figure class="photo"><img src="./img/m1-4.jpg"></figure>
+                            <figure class="photo"><img src="./img/m1-5.jpg"></figure>
+                            <figure class="photo"><img src="./img/m1-6.jpg"></figure>
+                        </div>
                         <div class="info">
                             <b>다온펜션 is</b>
                             <p>아름다운 추억을 선물해드립니다.
@@ -81,14 +62,23 @@
                     </div>
                 </div>
 
-                <div class="btn1">
+                <!-- <ul class="slick-dots">
+                    <li><button></button></li>
+                    <li><button></button></li>
+                    <li><button></button></li>
+                    <li><button></button></li>
+                    <li><button></button></li>
+                    <li><button></button></li>
+                </ul> -->
+
+                <!-- <div class="btn1">
                     <a href="#"></a>
                     <a href="#"></a>
                     <a href="#"></a>
                     <a href="#"></a>
                     <a href="#"></a>
                     <a href="#"></a>
-                </div>
+                </div> -->
             </div>
             <div class="padding150"></div>
 
@@ -96,7 +86,7 @@
             <div class="main2">
 
                 <div class="main2-left">
-                    <div class="main2-linfo">
+                    <div class="main2-linfo"> 
                         <div class="line">on.</div>
                         <a class="check" href="./sub6-2.html"><img src="./img/check.png" alt=""></a>
                         <div class="m2-t1">
@@ -109,13 +99,16 @@
                             <a href="#">▷</a>
                         </div>
                     </div>
-                    <figure class="m2-i2"></figure>
+                    <p><img src="./img/m2-011.jpg"></p>
+                    <!-- <figure class="m2-i2"></figure> -->
                 </div>
 
                 <div class="main2-right">
-                    <figure class="m2-i1"></figure>
+                    <!-- <figure class="m2-i1"></figure> -->
+                    <p><img src="./img/m2-011.jpg"></p>
                     <div class="main2-rinfo">
-                        <figure class="m2-i3"></figure>
+                        <!-- <figure class="m2-i3"></figure> -->
+                        <p><img src="./img/m2-3.jpg"></p>
                         <p class="m2-t2"><span>w</span>e presetn you
                             with beautful memories.</p>
                     </div>
@@ -156,7 +149,6 @@
             <div class="main4">
 
                 <div class="main4-img">
-
                     <a href="#m4-kal1">
                         <div class="m4-i1 m4-op" id='m4-kal2'>
                             <div class="m4-t m4-t1">
@@ -186,7 +178,6 @@
                     </a>
 
                     <div class="m4-pre">
-
                         <div class="m4-pre1 m4-pre-bg" id='m4-kal1'>
                             <div class="m4-preinfo">
                                 <h2> _ NEARbY TRAVEL 01 _</h2>
@@ -198,7 +189,7 @@
                                 <a href="#m4-kal2">X</a>
                             </div>
                         </div>
-                        <div class="m4-pre2 m4-pre-bg" id='m4-zara1'>
+                        <div class="m4-pre1 m4-pre-bg" id='m4-zara1'>
                             <div class="m4-preinfo">
                                 <h2> _ NEARbY TRAVEL 02 _</h2>
                                 <b>자라섬</b>
@@ -210,7 +201,7 @@
                                 <a href="#m4-zara2">X</a>
                             </div>
                         </div>
-                        <div class="m4-pre3 m4-pre-bg" id='m4-zip1'>
+                        <div class="m4-pre1 m4-pre-bg" id='m4-zip1'>
                             <div class="m4-preinfo">
                                 <h2> _ NEARbY TRAVEL 03 _</h2>
                                 <b>칼봉산 짚라인</b>
@@ -229,24 +220,11 @@
 
             <a href="./sub3.html" class="more">more→</a>
 
-            <div class="padding600"></div>
+            <div class="padding300"></div>
         </div>
     </main>
 
-
-    <footer>
-        <div>
-            <b>예약전화 : 010-3923-0662, 031-581-0662</b>
-            <p>업체명 : 가평다온펜션 온리유(민박사업자)   펜션지기 : 박춘하   사업자등록번호 : 286-11-00158    /   주소 : 경기도 가평군 가평읍 경반안로 357-187 (경반리 583-34)
-                <span>Copyright@ 2015 다온펜션 All Rights Reserved     DESIGNED BY WEBBIT   Admin
-                </span></p>
-            <p>개인정보처리방침</p>
-            <div class="ft-img">
-                <p><img src="./img/ft1.jpg" alt=""></p>
-                <p><img src="./img/ft2.jpg" alt=""></p>
-            </div>
-        </div>
-    </footer>
+    <footer></footer>
 
 
 </body>

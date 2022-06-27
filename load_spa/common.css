@@ -1,0 +1,27 @@
+*{box-sizing: border-box;}
+
+header{
+    width: 70%; 
+    margin: 100px auto;
+    text-align: center;
+}
+header nav{}
+header nav a{
+    padding: 0 20px;
+}
+header nav a.active{ color:#f00;}
+main{
+    width: 70%; 
+    margin: 0 auto; 
+    padding: 100px; 
+    border: 1px solid #000;
+    font-size: 2rem;
+    text-align: c;
+}
+
+footer{
+    border: 1px solid #000;
+    padding: 60px 0; 
+    margin: 100px 0;
+    text-align: center;
+}
